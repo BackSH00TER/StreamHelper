@@ -1907,6 +1907,12 @@
                         "minimatch": "~0.2.11"
                     }
                 },
+                "graceful-fs": {
+                    "version": "1.2.3",
+                    "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-1.2.3.tgz",
+                    "integrity": "sha512-iiTUZ5vZ+2ZV+h71XAgwCSu6+NAizhFU3Yw8aC/hH5SQ3SnISqEqAek40imAFGtDcwJKNhXvSY+hzIolnLwcdQ==",
+                    "dev": true
+                },
                 "inherits": {
                     "version": "1.0.2",
                     "resolved": "https://registry.npmjs.org/inherits/-/inherits-1.0.2.tgz",
@@ -3076,9 +3082,9 @@
             }
         },
         "moment": {
-            "version": "2.26.0",
-            "resolved": "https://registry.npmjs.org/moment/-/moment-2.26.0.tgz",
-            "integrity": "sha512-oIixUO+OamkUkwjhAVE18rAMfRJNsNe/Stid/gwHSOfHrOtw9EhAY2AHvdKZ/k/MggcYELFCJz/Sn2pL8b8JMw==",
+            "version": "2.29.4",
+            "resolved": "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz",
+            "integrity": "sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==",
             "dev": true
         },
         "ms": {
@@ -4514,6 +4520,15 @@
                     "resolved": "https://registry.npmjs.org/clone/-/clone-0.2.0.tgz",
                     "integrity": "sha1-xhJqkK1Pctv1rNskPMN3JP6T/B8=",
                     "dev": true
+                },
+                "graceful-fs": {
+                    "version": "3.0.12",
+                    "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.12.tgz",
+                    "integrity": "sha512-J55gaCS4iTTJfTXIxSVw3EMQckcqkpdRv3IR7gu6sq0+tbC363Zx6KH/SEwXASK9JRbhyZmVjJEVJIOxYsB3Qg==",
+                    "dev": true,
+                    "requires": {
+                        "natives": "^1.1.3"
+                    }
                 },
                 "isarray": {
                     "version": "0.0.1",
